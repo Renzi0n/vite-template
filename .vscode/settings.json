@@ -1,0 +1,53 @@
+{
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.fixAll.stylelint": true
+  },
+  "eslint.workingDirectories": [
+    {
+      "directory": "./apps/fgis-core",
+      "changeProcessCWD": true
+    },
+    {
+      "directory": "./apps/fgis-pam",
+      "changeProcessCWD": true
+    },
+    {
+      "directory": "./apps/fgis-pozvl",
+      "changeProcessCWD": true
+    },
+    {
+      "directory": "./apps/fgis-ppod-lkl",
+      "changeProcessCWD": true
+    },
+    {
+      "directory": "./apps/fgis-plk",
+      "changeProcessCWD": true
+    },
+    {
+      "directory": "./shared/fgis-shared-ui",
+      "changeProcessCWD": true
+    },
+    {
+      "directory": "./shared/fgis-shared-common",
+      "changeProcessCWD": true
+    },
+    {
+      "directory": "./widgets/fgis-shared-widget-nsi",
+      "changeProcessCWD": true
+    },
+    {
+      "directory": "./apps/fgis-pud",
+      "changeProcessCWD": true
+    }
+  ],
+  "css.validate": false,
+  "scss.validate": false,
+  "stylelint.validate": [
+    "css",
+    "scss",
+    "typescript",
+    "typescriptreact"
+  ]
+}
